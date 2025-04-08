@@ -36,7 +36,7 @@ class DataProcessor:
         base_experience = self.data["base_experience"]
 
        
-        with open(filename, "w", newline='') as file:
+        with open("Data/" + filename, "w", newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Name", "Height", "Weight", "Base Experience"])  
             writer.writerow([name, height, weight, base_experience])        
