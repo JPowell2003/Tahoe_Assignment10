@@ -12,11 +12,18 @@
 
 
 from API_Package.API import *
+from DataProcessor_Package.DataProcessor import *
 
 if __name__ == "__main__":
    
     api_client = APIClient()
-    ditto_data = api_client.get_pokemon()  
+    ditto_data = api_client.get_pokemon()
+
+    Data_Processor = DataProcessor(ditto_data)
+    Data_Processor.save_to_csv("ditto_data.csv")
+
+    
+
     
     name = ditto_data.get("name")
     height = ditto_data.get("height")
