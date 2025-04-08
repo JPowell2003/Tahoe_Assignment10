@@ -23,8 +23,9 @@ if __name__ == "__main__":
     weight = ditto_data.get("weight")
     abilities = [ability["ability"]["name"] for ability in ditto_data.get("abilities", [])]
 
-    print(f"Name: {name}")
-    print(f"Height: {height} dm")
-    print(f"Weight: {weight} hg")
-    print(f"Abilities: {', '.join(abilities)}")
+    print("Name:", name)
+    print("Height:", height, "dm")
+    print("Weight:", weight, "hg")
+    print("Abilities:", ", ".join(abilities))
+
 
