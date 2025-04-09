@@ -36,3 +36,12 @@ if __name__ == "__main__":
     print("Abilities:", ", ".join(abilities))
 
 
+
+
+    import os
+    print("✅ CSV exists!" if os.path.exists("data/ditto_data.csv") else "❌ CSV not found.")
+
+
+
+
+
