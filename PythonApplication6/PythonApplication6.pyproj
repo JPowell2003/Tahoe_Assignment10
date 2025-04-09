@@ -33,6 +33,9 @@
     <Compile Include="DataProcessor_Package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Data\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main_Package\main.py" />
     <Compile Include="main_Package\__init__.py">
       <SubType>Code</SubType>
@@ -41,6 +44,7 @@
   <ItemGroup>
     <Folder Include="API_Package\" />
     <Folder Include="DataProcessor_Package\" />
+    <Folder Include="Data\" />
     <Folder Include="main_Package\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
