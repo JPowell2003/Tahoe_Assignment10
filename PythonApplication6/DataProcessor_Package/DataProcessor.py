@@ -40,11 +40,11 @@ class DataProcessor:
         return flat
 
     def save_to_csv(self, filename):
-  flat_data = self.flatten(self.data)
+        flat_data = self.flatten(self.data)
 
-  path = os.path.join(os.path.dirname(__file__), filename)
+path = os.path.join(os.path.dirname(__file__), filename)
 
-  with open(path, "w", newline='', encoding="utf-8") as file:
+with open(path, "w", newline='', encoding="utf-8") as file:
       writer = csv.DictWriter(file, fieldnames=flat_data.keys())
       writer.writeheader()
       writer.writerow(flat_data)

@@ -1,2 +1,2 @@
-Name,Height,Weight,Base Experience
-ditto,3,40,101
+name,id,height,weight,base_experience,is_default,cries_latest,cries_legacy,abilities,held_items,moves,types,stat_hp,stat_attack,stat_defense,stat_special-attack,stat_special-defense,stat_speed,species_name
+ditto,132,3,40,101,True,https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/132.ogg,https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/132.ogg,"limber, imposter","metal-powder, quick-powder",transform,normal,48,48,48,48,48,48,ditto
