@@ -6,6 +6,7 @@
 # Course #/Section:   IS4010-001
 # Semester/Year:   Spring 2025
 # Brief Description of the assignment:
+    # The assignment gets data about the Pokémon Ditto from an API, processes it into a CSV file, and displays some of its basic information
 # Brief Description of what this module does:
     #Connects to the PokeAPI to retrieve data about the Pokemon Ditto.
 # Citations: https://pokeapi.co/

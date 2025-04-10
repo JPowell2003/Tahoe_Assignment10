@@ -6,7 +6,9 @@
 # Course #/Section: IS4010-001
 # Semester/Year:Spring 2025
 # Brief Description of the assignment:
-# Brief Description of what this module does: Calls the class from the 
+    # The assignment gets data about the Pokémon Ditto from an API, processes it into a CSV file, and displays some of its basic information
+# Brief Description of what this module does:
+    # Calls the class from the API and DataProcessor files to get Ditto’s data, save it to a CSV, and print some of its details
 # Citations: https://pokeapi.co/
 # Anything else that's relevant:
 
@@ -22,9 +24,6 @@ if __name__ == "__main__":
     Data_Processor = DataProcessor(ditto_data)
     Data_Processor.save_to_csv("ditto_data.csv")
 
-    
-
-    
     name = ditto_data.get("name")
     height = ditto_data.get("height")
     weight = ditto_data.get("weight")
@@ -34,14 +33,3 @@ if __name__ == "__main__":
     print("Height:", height, "dm")
     print("Weight:", weight, "hg")
     print("Abilities:", ", ".join(abilities))
-
-
-
-
-    import os
-    print("✅ CSV exists!" if os.path.exists("data/ditto_data.csv") else "❌ CSV not found.")
-
-
-
-
-
