@@ -33,18 +33,3 @@ if __name__ == "__main__":
     print("Height:", height, "dm")
     print("Weight:", weight, "hg")
     print("Abilities:", ", ".join(abilities))
-<<<<<<< HEAD
-
-
-
-
-    import os
-
-    print("✅ CSV exists!" if os.path.exists("data/ditto_data.csv") else "❌ CSV not found.")
-
-
-
-
-
-=======
->>>>>>> 955c1b6cde6d00ff08f5cd141adcd781cb660851
